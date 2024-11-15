@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="input.css" />
+  </head>
+  <body class="bg-gray-100">
+    <div class="container mt-48 flex mx-auto items-center justify-between">
+      <div class="left p-3 mx-10 w-2/3">
+        <img class="w-60" src="fb.svg" alt="logo " />
+        <p class="text-3xl mx-6">
+          facebook helps you connect and share with the people in your area and
+          interact with them
+        </p>
+      </div>
+      <div class="right relative flex flex-col bg-white p-12 rounded-lg w-1/3">
+        <input
+          class="px-4 py-4 h-12 my-2 border border-1 border-gray-200 rounded-lg"
+          type="text"
+          placeholder="email address or phone number"
+        />
+        <input
+          class="px-4 py-4 h-12 my-3 border border-1 border-gray-200 rounded-lg"
+          type="password"
+          placeholder="password"
+          id="password"
+        />
+        <button
+          class="btn bg-blue-500 text-white my-3 py-3 font-bold hover:bg-blue-400"
+        >
+          log in
+        </button>
+        <span>forgotten password?</span>
+        <hr />
+        <button class="btn">create new account</button>
+        <span class="absolute -bottom-10">create a page for a business</span>
+      </div>
+    </div>
+  </body>
+</html>
